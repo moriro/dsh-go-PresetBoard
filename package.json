@@ -1,5 +1,5 @@
 {
-  "name": "dshgo-presetboard",
+  "name": "dsh-presetboard",
   "version": "1.0.0",
   "description": "dsh-go 手机 App 原生预设板：分组、标签、置顶、分享码与文件导入导出。",
   "license": "MIT",
@@ -28,45 +28,88 @@
   "dshGo": {
     "v": 1,
     "minApp": "1.0.13",
-    "title": { "zh": "dshgo-PresetBoard", "en": "dshgo-PresetBoard" },
+    "title": {
+      "zh": "dsh-PresetBoard",
+      "en": "dsh-PresetBoard"
+    },
     "icon": "list",
-    "wants": ["draft"],
-    "capabilities": ["files"],
+    "wants": [
+      "draft"
+    ],
+    "capabilities": [
+      "files"
+    ],
     "contributes": {
       "composer.actions": [
         {
           "id": "open-presets",
-          "label": { "zh": "预设", "en": "Presets" },
+          "label": {
+            "zh": "预设",
+            "en": "Presets"
+          },
           "icon": "list"
         }
       ],
       "panels": [
         {
           "id": "presets",
-          "title": { "zh": "预设板", "en": "Preset board" },
+          "title": {
+            "zh": "预设板",
+            "en": "Preset board"
+          },
           "icon": "list",
-          "placement": ["session.tab", "features"],
+          "placement": [
+            "session.tab",
+            "features"
+          ],
           "presentation": "sheet"
         },
         {
           "id": "preset-edit",
-          "title": { "zh": "修改预设", "en": "Edit preset" },
+          "title": {
+            "zh": "修改预设",
+            "en": "Edit preset"
+          },
           "icon": "edit",
-          "placement": ["session.tab", "features"]
+          "placement": [
+            "session.tab",
+            "features"
+          ]
         },
         {
           "id": "group-edit",
-          "title": { "zh": "修改分组", "en": "Edit group" },
+          "title": {
+            "zh": "修改分组",
+            "en": "Edit group"
+          },
           "icon": "folder",
-          "placement": ["session.tab", "features"]
+          "placement": [
+            "session.tab",
+            "features"
+          ]
         },
         {
           "id": "preset-add",
-          "title": { "zh": "粘贴添加", "en": "Paste to add" },
+          "title": {
+            "zh": "粘贴添加",
+            "en": "Paste to add"
+          },
           "icon": "paste",
-          "placement": ["session.tab", "features"]
+          "placement": [
+            "session.tab",
+            "features"
+          ]
         }
       ]
     }
-  }
+  },
+  "homepage": "https://github.com/moriro/dsh-PresetBoard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moriro/dsh-PresetBoard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moriro/dsh-PresetBoard/issues"
+  },
+  "author": "moriro"
 }
