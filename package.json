@@ -1,6 +1,6 @@
 {
-  "name": "dsh-presetboard",
-  "version": "1.0.0",
+  "name": "dsh-go-presetboard",
+  "version": "1.0.1",
   "description": "dsh-go 手机 App 原生预设板：分组、标签、置顶、分享码与文件导入导出。",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
     "v": 1,
     "minApp": "1.0.13",
     "title": {
-      "zh": "dsh-PresetBoard",
-      "en": "dsh-PresetBoard"
+      "zh": "dsh-go-PresetBoard",
+      "en": "dsh-go-PresetBoard"
     },
     "icon": "list",
     "wants": [
@@ -103,13 +103,13 @@
       ]
     }
   },
-  "homepage": "https://github.com/moriro/dsh-PresetBoard",
+  "homepage": "https://github.com/moriro/dsh-go-PresetBoard",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moriro/dsh-PresetBoard.git"
+    "url": "git+https://github.com/moriro/dsh-go-PresetBoard.git"
   },
   "bugs": {
-    "url": "https://github.com/moriro/dsh-PresetBoard/issues"
+    "url": "https://github.com/moriro/dsh-go-PresetBoard/issues"
   },
   "author": "moriro"
 }

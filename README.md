@@ -1,4 +1,4 @@
-# dsh-PresetBoard
+# dsh-go-PresetBoard
 
 给 **dsh-go 手机 App 原生界面**用的预设板：把常用提示词、skill 说法、人设收进一个「预设」按钮。
 
@@ -13,7 +13,7 @@
 ## 安装
 
 ```sh
-dsh plugin --profile web add dsh-presetboard
+dsh plugin --profile web add dsh-go-presetboard
 ```
 
 从 DSH Go 插件市场安装时不用敲命令。
@@ -23,7 +23,7 @@ dsh plugin --profile web add dsh-presetboard
 预设保存在：
 
 ```
-$DSH_HOME/dsh-go/plugin-data/preset-board/data.json
+$DSH_HOME/dsh-go/plugin-data/dsh-go-presetboard/data.json
 ```
 
 升级或卸载插件不会删这份数据。
